@@ -5,11 +5,8 @@ public class Ejercicio6 {
         // suma de los 10 primeros números impares
         int suma = 0;
 
-        for(int i = 1; i <= 10; i++){
-            if(!(i % 2 == 0)) {
-                suma += i;
-                System.out.println(i);
-            }
+        for(int i = 1; i <= 10; i+=2){
+            suma += i;
         }
 
         System.out.println("Suma: " + suma);

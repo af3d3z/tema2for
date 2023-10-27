@@ -17,5 +17,6 @@ public class Ejercicio4 {
             if(i % 3 == 0)
                 System.out.println(i);
         }
+        sc.close();
     }
 }
